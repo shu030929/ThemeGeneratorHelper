@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MAKEETHEME</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">No-code user theme MVP</p>
+        <h1>MAKEETHEME</h1>
+      </div>
+      <div class="top-actions">
+        <button id="exportJsonBtn" class="secondary">theme.json 저장</button>
+        <label class="secondary file-label">
+          theme.json 불러오기
+          <input id="importJsonInput" type="file" accept="application/json,.json" hidden />
+        </label>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel editor">
+        <h2>프로젝트</h2>
+        <div class="grid two">
+          <label>테마 이름<input id="nameInput" type="text" /></label>
+          <label>작성자<input id="authorInput" type="text" /></label>
+          <label>iOS Theme ID<input id="iosIdInput" type="text" /></label>
+          <label>Android Package ID<input id="androidIdInput" type="text" /></label>
+        </div>
+
+        <h2>색상 토큰</h2>
+        <div id="colorFields" class="color-grid"></div>
+
+        <h2>이미지 슬롯</h2>
+        <p class="hint">업로드한 이미지는 브라우저 Canvas에서 규격별 PNG로 변환된 뒤 `.ktheme`에 들어갑니다. 비워두면 서버가 색상 기반 플레이스홀더를 생성합니다.</p>
+        <div class="asset-grid">
+          <label>메인 배경<input id="mainBgInput" type="file" accept="image/*" /></label>
+          <label>채팅방 배경<input id="chatBgInput" type="file" accept="image/*" /></label>
+          <label>암호화면 배경<input id="passcodeBgInput" type="file" accept="image/*" /></label>
+          <label>탭바 배경<input id="tabBgInput" type="file" accept="image/*" /></label>
+        </div>
+
+        <div class="button-row sticky-actions">
+          <button id="downloadIosBtn">iOS .ktheme 다운로드</button>
+          <button id="downloadAndroidBtn" class="secondary">Android resources.zip 다운로드</button>
+          <span id="status" role="status"></span>
+        </div>
+      </section>
+
+      <aside class="preview-wrap">
+        <div class="panel preview-panel">
+          <h2>미리보기</h2>
+          <div class="phone" id="phonePreview">
+            <div class="statusbar"><span>9:41</span><span>LTE 100%</span></div>
+            <div class="app-header"><strong>친구</strong><span>검색 · 설정</span></div>
+            <div class="tabs"><button class="active">친구</button><button>채팅</button><button>더보기</button></div>
+            <div class="friend-list">
+              <div class="friend-row"><div class="avatar"></div><div><b>MAKEETHEME</b><p>테마를 코드 없이 만들기</p></div></div>
+              <div class="friend-row"><div class="avatar small"></div><div><b>테마 제작자</b><p>색상과 이미지만 선택</p></div></div>
+              <div class="section-title">채팅방</div>
+              <div class="chat-preview">
+                <div class="bubble receive">상대 말풍선 미리보기</div>
+                <div class="bubble send">내 말풍선 미리보기</div>
+              </div>
+            </div>
+            <div class="inputbar"><span>＋</span><div>메시지 입력</div><button>전송</button></div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

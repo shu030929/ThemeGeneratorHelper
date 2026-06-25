@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "name": "MAKEETHEME Pink",
+    "authorName": "MAKEETHEME",
+    "version": "25.8.0",
+    "url": "https://example.com",
+    "iosThemeId": "com.example.talk.theme.makeethemepink.ios",
+    "androidPackageId": "com.example.talk.theme.makeethemepink"
+  },
+  "colors": {
+    "mainBackground": "#FFDEDE",
+    "chatBackground": "#FFE7E7",
+    "tabBarBackground": "#FFFFFF",
+    "headerText": "#664242",
+    "tabText": "#B39898",
+    "tabHighlightedText": "#664242",
+    "mainText": "#664242",
+    "descriptionText": "#805959",
+    "paragraphText": "#805959",
+    "sectionText": "#F66C6C",
+    "inputBarBackground": "#FFFFFF",
+    "sendButtonBackground": "#FF7F7F",
+    "sendButtonText": "#FFFFFF",
+    "messageSendText": "#FFFFFF",
+    "messageReceiveText": "#4D4D4D",
+    "bubbleSendBackground": "#FF7F7F",
+    "bubbleReceiveBackground": "#FFFFFF",
+    "unreadText": "#FF7F7F",
+    "passcodeBackground": "#FFDEDE",
+    "passcodeTitle": "#664242",
+    "profileBackground": "#F6A4A4",
+    "iconNormal": "#B39898",
+    "iconSelected": "#664242",
+    "notificationBackground": "#FCC5C5"
+  }
+}
