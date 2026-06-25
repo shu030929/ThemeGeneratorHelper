@@ -1,4 +1,4 @@
-# MAKEETHEME
+# MAKETHEME
 
 MAKEETHEME은 CSS/XML을 직접 수정하지 않고 색상과 이미지만 입력해 사용자 테마 파일을 만들 수 있도록 만든 MVP 레포입니다.
 
