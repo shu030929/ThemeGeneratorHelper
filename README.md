@@ -3,6 +3,9 @@
 MAKE_THEME은 CSS/XML을 직접 수정하지 않고 색상과 이미지만 입력해 사용자 테마 파일을 만들 수 있도록 만든 MVP 레포입니다.
 
 이 프로젝트는 **KakaoTalk 사용자 테마 포맷과 호환되는 파일을 생성**하기 위한 비공식 도구입니다. Kakao Corp.와 제휴, 후원, 승인 관계가 없습니다. Kakao, KakaoTalk 및 관련 브랜드는 Kakao Corp.의 상표입니다. 공개 서비스나 배포물에서 공식 제품처럼 보이는 이름, 로고, 캐릭터, 샘플 리소스를 사용하지 마세요.
+## Preview
+<img width="1710" height="996" alt="스크린샷 2026-06-25 오후 11 10 10" src="https://github.com/user-attachments/assets/bddcb276-1e8d-4608-9f3d-0dd6e8a79d11" />
+
 
 ## 포함 기능
 
